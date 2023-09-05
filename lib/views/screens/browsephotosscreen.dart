@@ -3,10 +3,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:gallery_saver/gallery_saver.dart';
 import 'package:icofont_flutter/icofont_flutter.dart';
+import 'package:provider/provider.dart';
+
 import 'package:pixellery/dataclass/dataclass.dart';
 import 'package:pixellery/models/models.dart';
 import 'package:pixellery/views/screens/picturedetailsscreen.dart';
-import 'package:provider/provider.dart';
 
 class BrowsePhotosScreen extends StatefulWidget {
   const BrowsePhotosScreen({super.key});
